@@ -1,5 +1,4 @@
-
-public class Student{
+public class Student extends Student_ext{
     String name;
     int Birthyear;
     public Student(String name , int Birthyear ){
@@ -17,6 +16,7 @@ public class Student{
         Student s1=new Student("Gururaj", 2005);
         s1.calculateage(2005);
         s1.dispaly();
-        
+        System.out.println("Course and marks");
+        s1.displayStud();
     }
 }
